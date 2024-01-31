@@ -1,16 +1,68 @@
 .footer_outer_container {
 	background-color: #111;
 	color: grey;
+    display: flex;
+    justify-content: center;
+    padding: 3% 0;
+}
+.footer_inner_container{
+    width: 80%;
+}
+.footer_icons{
+    width: 22%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.footer_data{
+    display: flex;
+    justify-content: space-between;
+}
+div li {
+    margin-bottom: 5px;
+}
+.footer_data ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 12vh;
+    } 
+.footer_data ul li{
+    cursor: pointer;
+}
+.service_code {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:#fff 1px solid;
+    width:15%;
+    margin:10px 0;
+    cursor: pointer;
+}
+.copy-write{
+    font-size: 12px;
+    margin-bottom:10px;
+}
+
+
+
+
+/* .footer_outer_container {
+	background-color: #111;
+	color: grey;
     /* display: flex; */
     /* justify-content: center; */
-}
+
 /* .footer_inner_container{
     width: 60%; */
     /* display: flex;
     justify-content: space-between;
     background-color: red; 
 } */ 
-.footer_icons{
+/* .footer_icons{
     display: flex;
     justify-content: space-between;
     width:150px;
@@ -30,7 +82,7 @@ div li{
     margin-bottom: 20px;
     /* opacity: 0.6; */
     /* font-family: 'Times New Roman', Times, serif; */
-    text-align: left;
+    /* text-align: left;
 } 
 .service_code {
     display: flex;
@@ -49,4 +101,4 @@ div li{
     margin-bottom:10px;
     margin-left: 200px;
     text-align: left;
-}
+} */ 
